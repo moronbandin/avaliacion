@@ -1,0 +1,9 @@
+#### Elemento para o que se busca o instrumento de avaliación
+
+{actividade}
+
+#### Tarefa
+
+Por favor, xera una Lista de Cotexo para poder avaliar este criterio de avaliación. A túa resposta será únicamente a táboa coa Lista de Cotexo e con Indicadores de Logro e Pesos lóxicos e axeitados para o que se pretende avaliar.
+Reparte os pesos da maneira que aches máis lóxica.
+Lista de Cotexo:
