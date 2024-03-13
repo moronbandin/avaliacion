@@ -5,7 +5,7 @@ from openai import OpenAI
 class EvaluacionGenerator:
     def __init__(self, api_key, model_version):
         self.client = OpenAI(api_key=api_key)
-        self.templates_dir = os.path.join(os.path.dirname(__file__), 'templates')
+        self.templates_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'templates')
         self.model = model_version  
 
     def _load_template(self, tool_name, template_name):
