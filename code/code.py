@@ -32,10 +32,10 @@ class EvaluacionGenerator:
         return self._generate_text(system_message, user_prompt)
 
 # Interfaz de Streamlit
-st.sidebar.title("Configuración da Avaliación")
+st.sidebar.title("Configuración")
 
-api_key = st.sidebar.text_input("Introduce a túa API Key de OpenAI:", type="password")
-model_version = st.sidebar.selectbox("Selecciona la versión del modelo:", ["GPT 3.5", "GPT 4"])
+api_key = st.sidebar.text_input("Introduce a túa API Key:", type="password")
+model_version = st.sidebar.selectbox("Selecciona a versión do modelo:", ["GPT 3.5", "GPT 4"])
 
 # Mapear selección del modelo a los identificadores de modelo en OpenAI
 model_map = {
