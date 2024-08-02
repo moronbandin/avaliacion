@@ -40,7 +40,7 @@ model_version = st.sidebar.selectbox("Selecciona a versión do modelo:", ["GPT 3
 # Mapear selección del modelo a los identificadores de modelo en OpenAI
 model_map = {
     'GPT 3.5': 'gpt-3.5-turbo-0125',
-    'GPT 4': 'gpt-4-0125-preview'
+    'GPT 4': 'gpt-4o-mini'
 }
 
 if not api_key:
